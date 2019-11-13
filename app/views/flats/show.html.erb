@@ -1,0 +1,46 @@
+<body>
+
+<div class="show-container">
+  <div class="show-banner"></div>
+  <div class="show-body-container">
+    <div class="row">
+
+      <div class="col-8">
+        <div class="show-flat-header">
+          <h2><%= @flat.name %></h3>
+          <p><%= @flat.address %></p>
+        </div>
+
+        <div class="show-flat-body">
+          <h4><%= @flat.description %></h4>
+          <br>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi impedit porro dolore, voluptates facere et tempora accusamus, eius reprehenderit ad recusandae quis veniam magnam molestiae sint rem amet. Autem, eveniet.</p>
+        </div>
+      </div>
+
+      <div class="col-4">
+        <div class="flat-show-card">
+          <h3>Book this flat !</h3>
+          <form action="#">
+            <div class="input-group">
+              <span class="input-group-addon" id="basic-addon1">From :  </span>
+              <input type="text" class="form-control" placeholder="18/10/2019" aria-label="Username" aria-describedby="basic-addon1">
+            </div>
+            <div class="input-group mt-2">
+              <span class="input-group-addon" id="basic-addon1">To :  </span>
+              <input type="text" class="form-control" placeholder="28/10/2019" aria-label="Username" aria-describedby="basic-addon1">
+            </div>
+            <input type="submit" value="Book" class="btn btn-success mt-2" style="width: 100%;">
+          </form>
+        </div>
+        <div class="flat-show-card">
+          <h3>Details</h3><br>
+          <p><i class="fas fa-user-friends"></i> <%= @flat.number_of_guests %> <i class="fas fa-euro-sign"> <%= @flat.price_per_night %></i></p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+</body>

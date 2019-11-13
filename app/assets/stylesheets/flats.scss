@@ -1,0 +1,89 @@
+// Place all the styles related to the flats controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.flat-card {
+  margin: 10px auto;
+  border-radius: 3px;
+  box-shadow: 1px 1px 1px grey;
+}
+
+.card-body {
+  background-color: lightgrey;
+}
+
+.container {
+  display: flex;
+  max-width: 1140px;
+}
+
+.card-footer {
+  background-color: white;
+  height: 70px;
+}
+
+.card-footer {
+  display: flex;
+  align-items: center;
+}
+
+.card-footer a {
+  padding-left: 15px;
+}
+
+.remove-link {
+  color: red;
+}
+
+.info-link {
+  color: blue;
+}
+
+.edit-link {
+  color: orange;
+}
+
+.card-body p i {
+  padding-left: 15px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.show-banner {
+  height: 350px;
+  background-image: url('https://picsum.photos/id/849/1000/300');
+  background-size: cover;
+  background-position: center;
+}
+
+.show-body-container {
+  margin-top: -50px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.show-flat-header, .show-flat-body {
+  background-color: #F8F9FA;
+  border-radius: 5px;
+  margin: 10px auto;
+  width: 600px;
+  min-height: 150px;
+  padding: 20px 20px;
+  text-align: justify;
+}
+
+.flat-show-card {
+  background-color: #F8F9FA;
+  border-radius: 5px;
+  margin: 10px auto;
+  min-height: 130px;
+  padding: 20px 20px;
+  text-align: justify;
+  width: 300px;
+}
+
+.flat-show-card p i {
+  padding-left: 10px;
+}
